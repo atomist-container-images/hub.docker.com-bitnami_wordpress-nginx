@@ -1,12 +1,27 @@
-# Tags: latest, 5.9.2-debian-10-r20, 5.9.2, 5-debian-10, 5
+# Tags: latest, 5.9.2-debian-10-r25, 5.9.2, 5-debian-10, 5
 FROM bitnami/wordpress-nginx:latest
-FROM bitnami/wordpress-nginx:5.9.2-debian-10-r20
+FROM bitnami/wordpress-nginx:5.9.2-debian-10-r25
 FROM bitnami/wordpress-nginx:5.9.2
 FROM bitnami/wordpress-nginx:5-debian-10
 FROM bitnami/wordpress-nginx:5
 
 # Tags: _
 FROM bitnami/wordpress-nginx:_
+
+# Tags: 5.9.2-debian-10-r24
+FROM bitnami/wordpress-nginx:5.9.2-debian-10-r24
+
+# Tags: 5.9.2-debian-10-r23
+FROM bitnami/wordpress-nginx:5.9.2-debian-10-r23
+
+# Tags: 5.9.2-debian-10-r22
+FROM bitnami/wordpress-nginx:5.9.2-debian-10-r22
+
+# Tags: 5.9.2-debian-10-r21
+FROM bitnami/wordpress-nginx:5.9.2-debian-10-r21
+
+# Tags: 5.9.2-debian-10-r20
+FROM bitnami/wordpress-nginx:5.9.2-debian-10-r20
 
 # Tags: 5.9.2-debian-10-r19
 FROM bitnami/wordpress-nginx:5.9.2-debian-10-r19
@@ -83,18 +98,3 @@ FROM bitnami/wordpress-nginx:5.9.1-debian-10-r12
 
 # Tags: 5.9.1-debian-10-r11
 FROM bitnami/wordpress-nginx:5.9.1-debian-10-r11
-
-# Tags: 5.9.1-debian-10-r10
-FROM bitnami/wordpress-nginx:5.9.1-debian-10-r10
-
-# Tags: 5.9.1-debian-10-r9
-FROM bitnami/wordpress-nginx:5.9.1-debian-10-r9
-
-# Tags: 5.9.1-debian-10-r8
-FROM bitnami/wordpress-nginx:5.9.1-debian-10-r8
-
-# Tags: 5.9.1-debian-10-r7
-FROM bitnami/wordpress-nginx:5.9.1-debian-10-r7
-
-# Tags: 5.9.1-debian-10-r6
-FROM bitnami/wordpress-nginx:5.9.1-debian-10-r6
