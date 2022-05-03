@@ -92,6 +92,3 @@ FROM bitnami/wordpress-nginx:5.9.2
 
 # Tags: 5.9.2-debian-10-r24
 FROM bitnami/wordpress-nginx:5.9.2-debian-10-r24
-
-# Tags: 5.9.2-debian-10-r23
-FROM bitnami/wordpress-nginx:5.9.2-debian-10-r23
